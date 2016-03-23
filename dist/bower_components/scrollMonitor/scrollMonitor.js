@@ -1,5 +1,6 @@
 (function( factory ) {
 	if (typeof define !== 'undefined' && define.amd) {
+		window.scrollMonitor = factory();
 		define([], factory);
 	} else if (typeof module !== 'undefined' && module.exports) {
 		module.exports = factory();
